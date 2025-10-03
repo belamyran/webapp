@@ -1,7 +1,8 @@
-name: Hello CI
+name: Hello Ci
 on: push
 jobs:
+  echo-test:
   runs-on: ubuntu-latest
   steps:
     - name: Echo message
-      run: echo "Hello CI!"
+      run: echo "Hello Ci!"
